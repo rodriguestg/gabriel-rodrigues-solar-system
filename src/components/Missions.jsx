@@ -2,7 +2,6 @@ import React from 'react';
 import MissionCard from './MissionCard';
 import Title from './Title';
 import missions from '../data/missions';
-import PropTypes from 'prop-types';
 
 class Missions extends React.Component {
   render() {
@@ -27,12 +26,5 @@ class Missions extends React.Component {
     );
   }
 }
-
-// Missions.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   year: PropTypes.string.isRequired,
-//   country: PropTypes.string.isRequired,
-//   destination: PropTypes.string.isRequired,
-// }
 
 export default Missions;
