@@ -9,9 +9,6 @@ body {
 }
 
 .planet img {
-  align-items: center;
-  justify-content: center;
-  display: flex;
   width: 150px;
 }
 
@@ -20,12 +17,12 @@ div {
 }
 
 .cardMission {
-  border: solid 1px rgb(168, 168, 168);
-  color: white;
   background-color: rgba(26, 26, 26, 0.507);
+  border: solid 1px rgb(168, 168, 168);
+  border-radius: 20px;
+  color: white;
   display: inline-flex;
   flex-direction: column;
-  border-radius: 20px;
   margin: 10px;
   padding-bottom: 10px;
 }
@@ -36,18 +33,18 @@ div {
 
 .tituloMission {
   background-color: rgba(0, 0, 0, 0.349);
-  font-size: 25px;
   border-bottom: solid 1px rgb(82, 82, 82);
+  font-size: 25px;
   margin: 10px;
   padding: 20px 5px;
 }
 
 div h2 {
+  background-color: rgba(26, 26, 26, 0.363);
+  border: solid 1px rgb(82, 82, 82);
   color: white;
   font-size: 60px;
-  background-color: rgba(26, 26, 26, 0.363);
   text-align: center;
-  border: solid 1px rgb(82, 82, 82);
   margin: 80px;
   padding: 10px;
 }
